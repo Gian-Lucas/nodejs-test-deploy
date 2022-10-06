@@ -5,6 +5,7 @@
   "main": "server.ts",
   "scripts": {
     "build": "tsc",
+    "start": "node ./dist/app.js",
     "dev": "tsnd --respawn --transpile-only server.ts"
   },
   "keywords": [],
